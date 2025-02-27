@@ -56,7 +56,29 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})] }})],
 
           screenElements:[
-        (...args:any) => <Elements.Pressable3 pass={{
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            
+        stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#fff"
+        }})] }}), stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "22px"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Tela 1 da LIVE"
+        }})
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -115,28 +137,6 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})],
 
           args,
-        }}/>, (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
-
-          arrStyles: [
-            
-        stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "#fff"
-        }})] }}), stls.fontSize({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "22px"
-        }})] }})
-          ],
-
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "Tela 1 da LIVE"
-        }})
-          ],
-
-          args,
-
         }}/>],
 
           startFunctions:[async (...args) =>
