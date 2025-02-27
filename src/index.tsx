@@ -156,7 +156,7 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "Oi Mundo!"
+          propertieValues: "Tela 1 da LIVE"
         }})
           ],
 
