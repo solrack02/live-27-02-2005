@@ -55,7 +55,8 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})
         }})] }})],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -77,7 +78,29 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
 
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           startFunctions:[async (...args) =>
         functions.firebase.fireInit({ args, pass:{
