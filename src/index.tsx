@@ -70,31 +70,6 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
               }
               ],
 
-          childrenItems: [()=><></>],
-
-          pressableFunctions: [
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("sc1");
-        }
-        ],
-
-          args,
-        }}/>, 
-        (...args:any) => <Elements.Pressable3 pass={{
-          elementProperties: [{}],
-
-          styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
-
           childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
