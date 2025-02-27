@@ -60,8 +60,11 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
 
-            styles:[stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+            styles:[
+        stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "center"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "blue"
         }})] }})],
 
             variablePath:[ ],
