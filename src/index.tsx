@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'sc0';
+          const currRoute = 'sc2';
 
           let args: any = [];
 
@@ -37,7 +37,7 @@
         
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"sc0",
+          pathScreen:"sc2",
 
           styles:[
 stls.backgroundColor({ pass: { arrayValue: [jsvals.varReader({pass: {
