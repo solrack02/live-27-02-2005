@@ -80,7 +80,8 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         ],
 
           args,
-        }}/>, (...args:any) => <Elements.Pressable3 pass={{
+        }}/>, 
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -139,6 +140,23 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }})],
 
           args,
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Oi Mundo!"
+        }})
+          ],
+
+          args,
+
         }}/>],
 
           startFunctions:[async (...args) =>
