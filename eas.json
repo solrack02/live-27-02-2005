@@ -5,12 +5,10 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "expoSdkVersion": "51.0.0"
+      "distribution": "internal"
     },
     "preview": {
-      "extends": "default",
-      "expoSdkVersion": "51.0.0"
+      "extends": "internal"
     },
     "production": {}
   },
